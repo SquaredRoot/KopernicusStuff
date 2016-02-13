@@ -1,0 +1,1266 @@
+//=============================================================================================================//
+//=====  Kopernicus 0.6.3 - (BuildDate: 28.12.2015 05:38:22; AssemblyHash: BsuysXszhzyhhG1by6WXtri2dUw=)  =====//
+//=============================================================================================================//
+[LOG 16:32:52]: Logger "Reach.Body" was created
+[LOG 16:32:52]: Parsing Target name in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 16:32:52]: Parsing Target Template in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.TemplateLoader)
+[LOG 16:32:52]: Parsing Target name in (Kopernicus.Configuration.TemplateLoader) as (System.String)
+[LOG 16:32:52]: Parsing Target removePQS in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target removeAtmosphere in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target removeOcean in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target removePQSMods in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.Configuration.StringCollectionParser)
+[LOG 16:32:53]: Parsing Target removeAllPQSMods in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target removeProgressTree in (Kopernicus.Configuration.TemplateLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: [Kopernicus]: Configuration.Template: Using Template "Kerbin"
+[LOG 16:32:53]: Parsing Target cacheFile in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 16:32:53]: Parsing Target cbNameLater in (Kopernicus.Configuration.Body) as (System.String)
+[LOG 16:32:53]: Parsing Target flightGlobalsIndex in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.NumericParser`1[System.Int32])
+[LOG 16:32:53]: Parsing Target finalizeOrbit in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target Properties in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.PropertiesLoader)
+[LOG 16:32:53]: Parsing Target description in (Kopernicus.Configuration.PropertiesLoader) as (System.String)
+[LOG 16:32:53]: Parsing Target radius in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target geeASL in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target mass in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target gravParameter in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target rotates in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target rotationPeriod in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target tidallyLocked in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target initialRotation in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target inverseRotThresholdAltitude in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target albedo in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target emissivity in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target coreTemperatureOffset in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target isHomeWorld in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target timewarpAltitudeLimits in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericCollectionParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target sphereOfInfluence in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target hillSphere in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target solarRotationPeriod in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target navballSwitchRadiusMult in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target ScienceValues in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.ScienceValuesLoader)
+[LOG 16:32:53]: Parsing Target landedDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target splashedDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target flyingLowDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target flyingHighDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target inSpaceLowDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target inSpaceHighDataValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target recoveryValue in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target flyingAltitudeThreshold in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target spaceAltitudeThreshold in (Kopernicus.Configuration.ScienceValuesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target biomeMap in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.MapSOParser_RGB`1[CBAttributeMapSO])
+[LOG 16:32:53]: Parsing Target useTheInName in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target selectable in (Kopernicus.Configuration.PropertiesLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Via mass, set gravParam to 6167964121200, surface G to 1.08
+[LOG 16:32:53]: --------- Science Values ------------
+[LOG 16:32:53]: LandedDataValue = 8
+[LOG 16:32:53]: SplashedDataValue = 1
+[LOG 16:32:53]: FlyingLowDataValue = 5
+[LOG 16:32:53]: FlyingHighDataValue = 5
+[LOG 16:32:53]: InSpaceLowDataValue = 7
+[LOG 16:32:53]: InSpaceHighDataValue = 5
+[LOG 16:32:53]: RecoveryValue = 5
+[LOG 16:32:53]: flyingAltitudeThreshold = 12000
+[LOG 16:32:53]: spaceAltitudeThreshold = 140000
+[LOG 16:32:53]: --------------------------------------
+[LOG 16:32:53]: Found Biome: Water : RGBA(0.000, 0.196, 0.518, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Grasslands : RGBA(0.349, 0.784, 0.059, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Highlands : RGBA(0.110, 0.533, 0.000, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Shores : RGBA(0.706, 0.388, 0.518, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Mountains : RGBA(0.510, 0.275, 0.000, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Deserts : RGBA(0.961, 0.737, 0.000, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Badlands : RGBA(0.027, 0.149, 0.035, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Tundra : RGBA(0.471, 0.886, 0.400, 1.000) : 0
+[LOG 16:32:53]: Found Biome: Ice Caps : RGBA(0.996, 0.996, 0.996, 1.000) : 0
+[LOG 16:32:53]: Added Progress Tree
+[LOG 16:32:53]: Parsing Target Orbit in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.OrbitLoader)
+[LOG 16:32:53]: Parsing Target referenceBody in (Kopernicus.Configuration.OrbitLoader) as (System.String)
+[LOG 16:32:53]: Parsing Target inclination in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target eccentricity in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target semiMajorAxis in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target longitudeOfAscendingNode in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target argumentOfPeriapsis in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target meanAnomalyAtEpoch in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target meanAnomalyAtEpochD in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target epoch in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target color in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.ColorParser)
+[LOG 16:32:53]: Parsing Target mode in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.EnumParser`1[OrbitRenderer+DrawMode])
+[LOG 16:32:53]: Parsing Target icon in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.EnumParser`1[OrbitRenderer+DrawIcons])
+[LOG 16:32:53]: Parsing Target cameraSmaRatioBounds in (Kopernicus.Configuration.OrbitLoader) as (Kopernicus.Configuration.NumericCollectionParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target ScaledVersion in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.ScaledVersionLoader)
+[LOG 16:32:53]: Parsing Target type in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.EnumParser`1[Kopernicus.Configuration.BodyType])
+[LOG 16:32:53]: Parsing Target color in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.ColorParser)
+[LOG 16:32:53]: Parsing Target specular in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.ColorParser)
+[LOG 16:32:53]: Parsing Target shininess in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target texture in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target normals in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target resources in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target rimPower in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target rimBlend in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target rimColorRamp in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target Gradient in (Kopernicus.Configuration.ScaledPlanetRimAerialLoader) as (Kopernicus.Configuration.Gradient)
+[LOG 16:32:53]: Parsing Target fadeStart in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target fadeEnd in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target Light in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.LightShifterLoader)
+[LOG 16:32:53]: Parsing Target sphericalModel in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target deferMesh in (Kopernicus.Configuration.ScaledVersionLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: ============= Scaled Version Dump ===================
+[LOG 16:32:53]: Reach (UnityEngine.GameObject)
+[LOG 16:32:53]:  >>> Components <<< 
+[LOG 16:32:53]:  Reach (UnityEngine.Transform)
+[LOG 16:32:53]:  Reach (UnityEngine.MeshFilter)
+[LOG 16:32:53]:  Reach (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:  Reach (UnityEngine.SphereCollider)
+[LOG 16:32:53]:  Reach (ScaledSpaceFader)
+[LOG 16:32:53]:  Reach (MaterialSetDirection)
+[LOG 16:32:53]:  >>> ---------- <<< 
+[LOG 16:32:53]:     Atmosphere (UnityEngine.GameObject)
+[LOG 16:32:53]:      >>> Components <<< 
+[LOG 16:32:53]:      Atmosphere (UnityEngine.Transform)
+[LOG 16:32:53]:      Atmosphere (UnityEngine.MeshFilter)
+[LOG 16:32:53]:      Atmosphere (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:      Atmosphere (AtmosphereFromGround)
+[LOG 16:32:53]:      >>> ---------- <<< 
+[LOG 16:32:53]: ===========================================
+[LOG 16:32:53]: Parsing Target Atmosphere in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.AtmosphereLoader)
+[LOG 16:32:53]: Parsing Target enabled in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target oxygen in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target staticDensityASL in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target adiabaticIndex in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target maxAltitude in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target altitude in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target atmosphereDepth in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target gasMassLapseRate in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target atmosphereMolarMass in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target pressureCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.FloatCurveParser)
+[LOG 16:32:53]: Parsing Target pressureCurveIsNormalized in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target staticPressureASL in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target temperatureCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.FloatCurveParser)
+[LOG 16:32:53]: Parsing Target temperatureCurveIsNormalized in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: Parsing Target temperatureLapseRate in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target temperatureSeaLevel in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target temperatureSunMultCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.FloatCurveParser)
+[LOG 16:32:53]: Parsing Target temperatureLatitudeBiasCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.FloatCurveParser)
+[LOG 16:32:53]: Parsing Target temperatureLatitudeSunMultCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.FloatCurveParser)
+[LOG 16:32:53]: Parsing Target temperatureAxialSunMultCurve in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.FloatCurveParser)
+[LOG 16:32:53]: Parsing Target ambientColor in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.ColorParser)
+[LOG 16:32:53]: Parsing Target lightColor in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.ColorParser)
+[LOG 16:32:53]: Parsing Target AtmosphereFromGround in (Kopernicus.Configuration.AtmosphereLoader) as (Kopernicus.Configuration.AtmosphereFromGroundLoader)
+[LOG 16:32:53]: Parsing Target PQS in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.PQSLoader)
+[LOG 16:32:53]: Parsing Target materialType in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.EnumParser`1[Kopernicus.Configuration.PQSLoader+PQSMaterialType])
+[LOG 16:32:53]: Parsing Target PhysicsMaterial in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.PhysicsMaterialParser)
+[LOG 16:32:53]: Parsing Target minLevel in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Int32])
+[LOG 16:32:53]: Parsing Target maxLevel in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Int32])
+[LOG 16:32:53]: Parsing Target minDetailDistance in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target maxQuadLengthsPerFrame in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target fadeStart in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target fadeEnd in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target deactivateAltitude in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.NumericParser`1[System.Double])
+[LOG 16:32:53]: Parsing Target Material in (Kopernicus.Configuration.PQSLoader) as (UnityEngine.Material)
+[LOG 16:32:53]: Parsing Target saturation in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target contrast in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target tintColor in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.ColorParser)
+[LOG 16:32:53]: Parsing Target powerNear in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target powerFar in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target groundTexStart in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target groundTexEnd in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target steepPower in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target steepTexStart in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target steepTexEnd in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target steepTex in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target steepTexScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target steepTexOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target steepBumpMap in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target steepBumpMapScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target steepBumpMapOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target steepNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target steepTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target lowTex in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target lowTexScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target lowTexOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target lowBumpMap in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target lowBumpMapScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target lowBumpMapOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target lowNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target lowMultiFactor in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target lowBumpNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target lowBumpFarTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target midTex in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target midTexScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target midTexOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target midBumpMap in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target midBumpMapScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target midBumpMapOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target midNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target midMultiFactor in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target midBumpNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target midBumpFarTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target highTex in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target highTexScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target highTexOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target highBumpMap in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target highBumpMapScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target highBumpMapOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target highNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target highMultiFactor in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target highBumpNearTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target highBumpFarTiling in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target lowStart in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target lowEnd in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target highStart in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target highEnd in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target globalDensity in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target fogColorRamp in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Texture2DParser)
+[LOG 16:32:53]: Parsing Target fogColorRampScale in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target fogColorRampOffset in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.Vector2Parser)
+[LOG 16:32:53]: Parsing Target planetOpacity in (Kopernicus.Configuration.PQSMainOptimisedLoader) as (Kopernicus.Configuration.NumericParser`1[System.Single])
+[LOG 16:32:53]: Parsing Target FallbackMaterial in (Kopernicus.Configuration.PQSLoader) as (Kopernicus.Configuration.PQSProjectionFallbackLoader)
+[LOG 16:32:53]:   Reach (UnityEngine.GameObject)
+[LOG 16:32:53]:    >>> Components <<< 
+[LOG 16:32:53]:    Reach (UnityEngine.Transform)
+[LOG 16:32:53]:    Reach (PQS)
+[LOG 16:32:53]:    >>> ---------- <<< 
+[LOG 16:32:53]:       _HeightNoise (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _HeightNoise (UnityEngine.Transform)
+[LOG 16:32:53]:        _HeightNoise (PQSMod_VertexSimplexHeightAbsolute)
+[LOG 16:32:53]:        _HeightNoise (PQSMod_VertexHeightNoiseVertHeightCurve2)
+[LOG 16:32:53]:        _HeightNoise (PQSMod_VertexRidgedAltitudeCurve)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _Material_ModProjection (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _Material_ModProjection (UnityEngine.Transform)
+[LOG 16:32:53]:        _Material_ModProjection (PQSMod_AltitudeAlpha)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _LandClassOcean (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _LandClassOcean (UnityEngine.Transform)
+[LOG 16:32:53]:        _LandClassOcean (PQSLandControl)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _Material_AerialPerspective (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _Material_AerialPerspective (UnityEngine.Transform)
+[LOG 16:32:53]:        _Material_AerialPerspective (PQSMod_AerialPerspectiveMaterial)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _Material_SurfaceQuads (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _Material_SurfaceQuads (UnityEngine.Transform)
+[LOG 16:32:53]:        _Material_SurfaceQuads (PQSMod_UVPlanetRelativePosition)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _Height (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _Height (UnityEngine.Transform)
+[LOG 16:32:53]:        _Height (PQSMod_VertexHeightMap)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _CoastlineLOD (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _CoastlineLOD (UnityEngine.Transform)
+[LOG 16:32:53]:        _CoastlineLOD (PQSMod_QuadEnhanceCoast)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _CelestialBody (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _CelestialBody (UnityEngine.Transform)
+[LOG 16:32:53]:        _CelestialBody (PQSMod_CelestialBodyTransform)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       _Material_SunLight (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        _Material_SunLight (UnityEngine.Transform)
+[LOG 16:32:53]:        _Material_SunLight (PQSMod_MaterialSetDirection)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       KSC (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        KSC (UnityEngine.Transform)
+[LOG 16:32:53]:        KSC (PQSCity)
+[LOG 16:32:53]:        KSC (PQSMod_MapDecalTangent)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           SpaceCenterMarker (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            SpaceCenterMarker (UnityEngine.Transform)
+[LOG 16:32:53]:            SpaceCenterMarker (SpaceCenter)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:           DestructionCollider (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            DestructionCollider (UnityEngine.Transform)
+[LOG 16:32:53]:            DestructionCollider (UnityEngine.SphereCollider)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:           SpaceCenter (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            SpaceCenter (UnityEngine.Transform)
+[LOG 16:32:53]:            SpaceCenter (TimeOfDayAnimation)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               monolith00 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                monolith00 (UnityEngine.Transform)
+[LOG 16:32:53]:                monolith00 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                monolith00 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                monolith00 (CrashObjectName)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               SpaceCenterCameraPosition (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                SpaceCenterCameraPosition (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Administration (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Administration (UnityEngine.Transform)
+[LOG 16:32:53]:                Administration (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               AstronautComplex (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                AstronautComplex (UnityEngine.Transform)
+[LOG 16:32:53]:                AstronautComplex (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               FlagPole (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                FlagPole (UnityEngine.Transform)
+[LOG 16:32:53]:                FlagPole (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               LaunchPad (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                LaunchPad (UnityEngine.Transform)
+[LOG 16:32:53]:                LaunchPad (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               MissionControl (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                MissionControl (UnityEngine.Transform)
+[LOG 16:32:53]:                MissionControl (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               ResearchAndDevelopment (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                ResearchAndDevelopment (UnityEngine.Transform)
+[LOG 16:32:53]:                ResearchAndDevelopment (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               Runway (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Runway (UnityEngine.Transform)
+[LOG 16:32:53]:                Runway (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               SpaceplaneHangar (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                SpaceplaneHangar (UnityEngine.Transform)
+[LOG 16:32:53]:                SpaceplaneHangar (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               TrackingStation (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                TrackingStation (UnityEngine.Transform)
+[LOG 16:32:53]:                TrackingStation (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               VehicleAssemblyBuilding (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                VehicleAssemblyBuilding (UnityEngine.Transform)
+[LOG 16:32:53]:                VehicleAssemblyBuilding (Upgradeables.UpgradeableFacility)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               Crawlerway (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Crawlerway (UnityEngine.Transform)
+[LOG 16:32:53]:                Crawlerway (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               Grounds (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Grounds (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   AC_RnD (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    AC_RnD (UnityEngine.Transform)
+[LOG 16:32:53]:                    AC_RnD (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   AC_SPH (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    AC_SPH (UnityEngine.Transform)
+[LOG 16:32:53]:                    AC_SPH (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   VAB_RnD1 (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    VAB_RnD1 (UnityEngine.Transform)
+[LOG 16:32:53]:                    VAB_RnD1 (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   VAB_RnD2 (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    VAB_RnD2 (UnityEngine.Transform)
+[LOG 16:32:53]:                    VAB_RnD2 (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   VAB_TS1 (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    VAB_TS1 (UnityEngine.Transform)
+[LOG 16:32:53]:                    VAB_TS1 (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   VAB_TS2 (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    VAB_TS2 (UnityEngine.Transform)
+[LOG 16:32:53]:                    VAB_TS2 (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   VAB_MC (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    VAB_MC (UnityEngine.Transform)
+[LOG 16:32:53]:                    VAB_MC (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   VAB_AC (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    VAB_AC (UnityEngine.Transform)
+[LOG 16:32:53]:                    VAB_AC (Upgradeables.UpgradeableSlave)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       Facility (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        Facility (UnityEngine.Transform)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:       KSC2 (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        KSC2 (UnityEngine.Transform)
+[LOG 16:32:53]:        KSC2 (PQSCity)
+[LOG 16:32:53]:        KSC2 (PQSMod_MapDecal)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           launchpad (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            launchpad (UnityEngine.Transform)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               Box113 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box113 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box113 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box113 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box128 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box128 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box128 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box128 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box147 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box147 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box147 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box147 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box148 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box148 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box148 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box148 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box149 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box149 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box149 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box149 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box150 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box150 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box150 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box150 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box151 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box151 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box151 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box151 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box152 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box152 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box152 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box152 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box153 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box153 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box153 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box153 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box154 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box154 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box154 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box154 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box155 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box155 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box155 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box155 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box156 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box156 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box156 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box156 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box157 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box157 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box157 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box157 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box158 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box158 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box158 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box158 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box159 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box159 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box159 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box159 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box160 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box160 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box160 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box160 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box161 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box161 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box161 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box161 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box166 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box166 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box166 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box166 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box167 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box167 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box167 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box167 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box168 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box168 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box168 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box168 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box169 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box169 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box169 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box169 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box170 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box170 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box170 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box170 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box171 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box171 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box171 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box171 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box172 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box172 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box172 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box172 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box173 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box173 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box173 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box173 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box174 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box174 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box174 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box174 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box175 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box175 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box175 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box175 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box176 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box176 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box176 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box176 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box177 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box177 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box177 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box177 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box178 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box178 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box178 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box178 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box179 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box179 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box179 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box179 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box180 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box180 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box180 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box180 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box181 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box181 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box181 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box181 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box182 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box182 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box182 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box182 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box183 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box183 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box183 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box183 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box184 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box184 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box184 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box184 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box185 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box185 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box185 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box185 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box186 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box186 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box186 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box186 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box187 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box187 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box187 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box187 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box188 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box188 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box188 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box188 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box189 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box189 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box189 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box189 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box190 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box190 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box190 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box190 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box191 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box191 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box191 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box191 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box192 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box192 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box192 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box192 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Cylinder038 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Cylinder038 (UnityEngine.Transform)
+[LOG 16:32:53]:                Cylinder038 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Cylinder038 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Cylinder041 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Cylinder041 (UnityEngine.Transform)
+[LOG 16:32:53]:                Cylinder041 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Cylinder041 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Line268 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Line268 (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Launchpad Platform (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Launchpad Platform (UnityEngine.Transform)
+[LOG 16:32:53]:                Launchpad Platform (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Launchpad Platform (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Launchpad Platform (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               PlatformPlane (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                PlatformPlane (UnityEngine.Transform)
+[LOG 16:32:53]:                PlatformPlane (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                PlatformPlane (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                PlatformPlane (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Water Tower (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Water Tower (UnityEngine.Transform)
+[LOG 16:32:53]:                Water Tower (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Water Tower (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Water Tower (UnityEngine.BoxCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Coolant Tank (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Coolant Tank (UnityEngine.Transform)
+[LOG 16:32:53]:                Coolant Tank (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Coolant Tank (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Coolant Tank (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Coolant Tanks (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Coolant Tanks (UnityEngine.Transform)
+[LOG 16:32:53]:                Coolant Tanks (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Coolant Tanks (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Coolant Tanks (UnityEngine.BoxCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Launchpad Tower (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Launchpad Tower (UnityEngine.Transform)
+[LOG 16:32:53]:                Launchpad Tower (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Launchpad Tower (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Launchpad Tower (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               tuberia (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                tuberia (UnityEngine.Transform)
+[LOG 16:32:53]:                tuberia (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                tuberia (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:           monolith00 (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            monolith00 (UnityEngine.Transform)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:            monolith00 (UnityEngine.Animation)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:           tracking station (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            tracking station (UnityEngine.Transform)
+[LOG 16:32:53]:            tracking station (TrackingStationDishMovement)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               Tracking Station (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Tracking Station (UnityEngine.Transform)
+[LOG 16:32:53]:                Tracking Station (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Tracking Station (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Tracking Station (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   base_rot (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    base_rot (UnityEngine.Transform)
+[LOG 16:32:53]:                    base_rot (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                    base_rot (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                    base_rot (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       antena_gig (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        antena_gig (UnityEngine.Transform)
+[LOG 16:32:53]:                        antena_gig (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                        antena_gig (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                        antena_gig (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:               ZZZZZZZship_spawn (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                ZZZZZZZship_spawn (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:           vehicle assembly (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            vehicle assembly (UnityEngine.Transform)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               base002 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                base002 (UnityEngine.Transform)
+[LOG 16:32:53]:                base002 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                base002 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box044 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box044 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box044 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box044 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box064 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box064 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box064 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box064 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Box064 (UnityEngine.BoxCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box065 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box065 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box065 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box065 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Box067 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Box067 (UnityEngine.Transform)
+[LOG 16:32:53]:                Box067 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Box067 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Vehicle Assembly Building (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Vehicle Assembly Building (UnityEngine.Transform)
+[LOG 16:32:53]:                Vehicle Assembly Building (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Vehicle Assembly Building (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Vehicle Assembly Building (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:           DestructionCollider (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            DestructionCollider (UnityEngine.Transform)
+[LOG 16:32:53]:            DestructionCollider (UnityEngine.SphereCollider)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:       QuadMeshColliders (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        QuadMeshColliders (UnityEngine.Transform)
+[LOG 16:32:53]:        QuadMeshColliders (PQSMod_QuadMeshColliders)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:       KerbinOcean (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        KerbinOcean (UnityEngine.Transform)
+[LOG 16:32:53]:        KerbinOcean (PQS)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           _Material_AerialPerspective (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            _Material_AerialPerspective (UnityEngine.Transform)
+[LOG 16:32:53]:            _Material_AerialPerspective (PQSMod_AerialPerspectiveMaterial)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:           SurfaceQuadUV (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            SurfaceQuadUV (UnityEngine.Transform)
+[LOG 16:32:53]:            SurfaceQuadUV (PQSMod_UVPlanetRelativePosition)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:           QuadRemoveMap (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            QuadRemoveMap (UnityEngine.Transform)
+[LOG 16:32:53]:            QuadRemoveMap (PQSMod_RemoveQuadMap)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:           OceanFX (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            OceanFX (UnityEngine.Transform)
+[LOG 16:32:53]:            OceanFX (PQSMod_OceanFX)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:       Monolith00 (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        Monolith00 (UnityEngine.Transform)
+[LOG 16:32:53]:        Monolith00 (PQSCity)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           monolith00 (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            monolith00 (UnityEngine.Transform)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:            monolith00 (UnityEngine.Animation)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:       Monolith01 (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        Monolith01 (UnityEngine.Transform)
+[LOG 16:32:53]:        Monolith01 (PQSCity)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           monolith00 (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            monolith00 (UnityEngine.Transform)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:            monolith00 (UnityEngine.Animation)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:       Monolith02 (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        Monolith02 (UnityEngine.Transform)
+[LOG 16:32:53]:        Monolith02 (PQSCity)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           monolith00 (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            monolith00 (UnityEngine.Transform)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            monolith00 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:            monolith00 (UnityEngine.Animation)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:       Pyramids (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        Pyramids (UnityEngine.Transform)
+[LOG 16:32:53]:        Pyramids (PQSCity)
+[LOG 16:32:53]:        Pyramids (PQSMod_FlattenArea)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           The Great Pyramid (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            The Great Pyramid (UnityEngine.Transform)
+[LOG 16:32:53]:            The Great Pyramid (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            The Great Pyramid (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:            The Great Pyramid (UnityEngine.MeshCollider)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               Slightly Less Great Pyramid (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Slightly Less Great Pyramid (UnityEngine.Transform)
+[LOG 16:32:53]:                Slightly Less Great Pyramid (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Slightly Less Great Pyramid (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Slightly Less Great Pyramid (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Stacked Bricks (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Stacked Bricks (UnityEngine.Transform)
+[LOG 16:32:53]:                Stacked Bricks (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Stacked Bricks (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Stacked Bricks (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               A Ziggurat Thing (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                A Ziggurat Thing (UnityEngine.Transform)
+[LOG 16:32:53]:                A Ziggurat Thing (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                A Ziggurat Thing (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                A Ziggurat Thing (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Priceless Artifact You should not crash into (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Priceless Artifact You should not crash into (UnityEngine.Transform)
+[LOG 16:32:53]:                Priceless Artifact You should not crash into (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Priceless Artifact You should not crash into (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Priceless Artifact You should not crash into (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Tomb of the lost Kerbal (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Tomb of the lost Kerbal (UnityEngine.Transform)
+[LOG 16:32:53]:                Tomb of the lost Kerbal (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Tomb of the lost Kerbal (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Tomb of the lost Kerbal (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Tut-Un Jeb-Ahn (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Tut-Un Jeb-Ahn (UnityEngine.Transform)
+[LOG 16:32:53]:                Tut-Un Jeb-Ahn (UnityEngine.CapsuleCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   rubies (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    rubies (UnityEngine.Transform)
+[LOG 16:32:53]:                    rubies (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                    rubies (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                   statue (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    statue (UnityEngine.Transform)
+[LOG 16:32:53]:                    statue (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                    statue (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               Wall (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Wall (UnityEngine.Transform)
+[LOG 16:32:53]:                Wall (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Wall (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Wall (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               Wall (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                Wall (UnityEngine.Transform)
+[LOG 16:32:53]:                Wall (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                Wall (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                Wall (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:       UFO (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        UFO (UnityEngine.Transform)
+[LOG 16:32:53]:        UFO (PQSCity)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           UFO (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            UFO (UnityEngine.Transform)
+[LOG 16:32:53]:            UFO (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            UFO (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:            UFO (UnityEngine.MeshCollider)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:       IslandAirfield (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        IslandAirfield (UnityEngine.Transform)
+[LOG 16:32:53]:        IslandAirfield (PQSCity)
+[LOG 16:32:53]:        IslandAirfield (PQSMod_MapDecalTangent)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]:           model_island_ap_exterior_v41 (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            model_island_ap_exterior_v41 (UnityEngine.Transform)
+[LOG 16:32:53]:            model_island_ap_exterior_v41 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:            model_island_ap_exterior_v41 (CrashObjectName)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               ExtraTowerCollider (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                ExtraTowerCollider (UnityEngine.Transform)
+[LOG 16:32:53]:                ExtraTowerCollider (UnityEngine.BoxCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               model_island_ap_exterior_v46_decals (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                model_island_ap_exterior_v46_decals (UnityEngine.Transform)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_decals (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_decals (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               model_island_ap_exterior_v46_ground (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                model_island_ap_exterior_v46_ground (UnityEngine.Transform)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_ground (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_ground (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               model_island_ap_exterior_v46_ground_collider (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                model_island_ap_exterior_v46_ground_collider (UnityEngine.Transform)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_ground_collider (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_ground_collider (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               model_island_ap_exterior_v46_structures (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                model_island_ap_exterior_v46_structures (UnityEngine.Transform)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_structures (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_structures (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                model_island_ap_exterior_v46_structures (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:               model_runway_new_fx_flare_wide_02 (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                model_runway_new_fx_flare_wide_02 (UnityEngine.Transform)
+[LOG 16:32:53]:                model_runway_new_fx_flare_wide_02 (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                model_runway_new_fx_flare_wide_02 (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                model_runway_new_fx_flare_wide_02 (UnityEngine.Animation)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:           IslandParts (UnityEngine.GameObject)
+[LOG 16:32:53]:            >>> Components <<< 
+[LOG 16:32:53]:            IslandParts (UnityEngine.Transform)
+[LOG 16:32:53]:            >>> ---------- <<< 
+[LOG 16:32:53]:               fuelTank (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                fuelTank (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   node_collider (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    node_collider (UnityEngine.Transform)
+[LOG 16:32:53]:                    node_collider (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                    node_collider (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                   tank (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    tank (UnityEngine.Transform)
+[LOG 16:32:53]:                    tank (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                    tank (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:               liquidEngine (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                liquidEngine (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   liquid_engine (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    liquid_engine (UnityEngine.Transform)
+[LOG 16:32:53]:                    liquid_engine (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                    liquid_engine (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                    liquid_engine (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                   node_collider (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    node_collider (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       node_collider-Pivot (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        node_collider-Pivot (UnityEngine.Transform)
+[LOG 16:32:53]:                        node_collider-Pivot (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:               mk1pod (UnityEngine.GameObject)
+[LOG 16:32:53]:                >>> Components <<< 
+[LOG 16:32:53]:                mk1pod (UnityEngine.Transform)
+[LOG 16:32:53]:                >>> ---------- <<< 
+[LOG 16:32:53]:                   command_pod (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    command_pod (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       command_pod-Pivot (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        command_pod-Pivot (UnityEngine.Transform)
+[LOG 16:32:53]:                        command_pod-Pivot (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                        command_pod-Pivot (UnityEngine.MeshRenderer)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:                   node_collider (UnityEngine.GameObject)
+[LOG 16:32:53]:                    >>> Components <<< 
+[LOG 16:32:53]:                    node_collider (UnityEngine.Transform)
+[LOG 16:32:53]:                    >>> ---------- <<< 
+[LOG 16:32:53]:                       node_collider-Pivot (UnityEngine.GameObject)
+[LOG 16:32:53]:                        >>> Components <<< 
+[LOG 16:32:53]:                        node_collider-Pivot (UnityEngine.Transform)
+[LOG 16:32:53]:                        node_collider-Pivot (UnityEngine.MeshFilter)
+[LOG 16:32:53]:                        node_collider-Pivot (UnityEngine.MeshCollider)
+[LOG 16:32:53]:                        >>> ---------- <<< 
+[LOG 16:32:53]:       OnDemandHandler (UnityEngine.GameObject)
+[LOG 16:32:53]:        >>> Components <<< 
+[LOG 16:32:53]:        OnDemandHandler (UnityEngine.Transform)
+[LOG 16:32:53]:        OnDemandHandler (Kopernicus.OnDemand.PQSMod_OnDemandHandler)
+[LOG 16:32:53]:        >>> ---------- <<< 
+[LOG 16:32:53]: Parsing Target Ocean in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.OceanLoader)
+[LOG 16:32:53]: Parsing Target SpaceCenter in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.SpaceCenterLoader)
+[LOG 16:32:53]: Parsing Target Debug in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.DebugLoader)
+[LOG 16:32:53]: Parsing Target barycenter in (Kopernicus.Configuration.Body) as (Kopernicus.Configuration.NumericParser`1[System.Boolean])
+[LOG 16:32:53]: [Kopernicus]: Body.PostApply(ConfigNode): Loading cached scaled space mesh: Reach
+[LOG 16:32:54]: --------- Celestial Body ------------
+[LOG 16:32:54]: bodyName = Reach
+[LOG 16:32:54]: bodyDescription = Nicknamed kerbalkind's first "foothold amongst the stars", Reach is a habitable planet very similar to Kerbin, but this rugged planet is however far more mountainous, larger, and has higher gravity. For some strange reason, it is incredibly rich in Titanium ore.
+[LOG 16:32:54]: GeeASL = 1.08
+[LOG 16:32:54]: Radius = 763000
+[LOG 16:32:54]: Mass = 9.24178022355409E+22
+[LOG 16:32:54]: Density = 0
+[LOG 16:32:54]: SurfaceArea = 0
+[LOG 16:32:54]: gravParameter = 6167964121200
+[LOG 16:32:54]: sphereOfInfluence = 0
+[LOG 16:32:54]: hillSphere = 0
+[LOG 16:32:54]: gMagnitudeAtCenter = 6167964121200
+[LOG 16:32:54]: atmDensityASL = 0
+[LOG 16:32:54]: navballSwitchRadiusMult = 0.06
+[LOG 16:32:54]: use_The_InName = False
+[LOG 16:32:54]: isHomeWorld = False
+[LOG 16:32:54]: ocean = True
+[LOG 16:32:54]: oceanUseFog = True
+[LOG 16:32:54]: oceanFogDensityStart = 0.005
+[LOG 16:32:54]: oceanFogDensityEnd = 0.025
+[LOG 16:32:54]: oceanFogDensityPQSMult = 0.02
+[LOG 16:32:54]: oceanFogDensityAltScalar = -0.0008
+[LOG 16:32:54]: oceanFogDensityExponent = 1
+[LOG 16:32:54]: oceanFogColorStart = RGBA(0.000, 0.340, 0.490, 1.000)
+[LOG 16:32:54]: oceanFogColorEnd = RGBA(0.000, 0.085, 0.123, 1.000)
+[LOG 16:32:54]: oceanFogColorAltMult = -0.001
+[LOG 16:32:54]: oceanSkyColorMult = 1.1
+[LOG 16:32:54]: oceanSkyColorOpacityBase = 0.25
+[LOG 16:32:54]: oceanSkyColorOpacityAltMult = 15
+[LOG 16:32:54]: oceanDensity = 1
+[LOG 16:32:54]: oceanAFGBase = 0.6
+[LOG 16:32:54]: oceanAFGAltMult = 0.05
+[LOG 16:32:54]: oceanAFGMin = 0.05
+[LOG 16:32:54]: oceanSunBase = 0.5
+[LOG 16:32:54]: oceanSunAltMult = 0.01
+[LOG 16:32:54]: oceanSunMin = 0.05
+[LOG 16:32:54]: oceanAFGLerp = False
+[LOG 16:32:54]: atmosphere = True
+[LOG 16:32:54]: atmosphereContainsOxygen = True
+[LOG 16:32:54]: atmosphereDepth = 55000
+[LOG 16:32:54]: atmosphereTemperatureSeaLevel = 288
+[LOG 16:32:54]: atmospherePressureSeaLevel = 101.324996948242
+[LOG 16:32:54]: atmosphereMolarMass = 0.0289644002914429
+[LOG 16:32:54]: atmosphereAdiabaticIndex = 1.39999997615814
+[LOG 16:32:54]: atmosphereTemperatureLapseRate = 0
+[LOG 16:32:54]: atmosphereGasMassLapseRate = 0
+[LOG 16:32:54]: atmosphereUseTemperatureCurve = True
+[LOG 16:32:54]: atmosphereTemperatureCurveIsNormalized = False
+[LOG 16:32:54]: atmosphereTemperatureCurve = FloatCurve
+[LOG 16:32:54]: latitudeTemperatureBiasCurve = FloatCurve
+[LOG 16:32:54]: latitudeTemperatureSunMultCurve = FloatCurve
+[LOG 16:32:54]: axialTemperatureSunMultCurve = FloatCurve
+[LOG 16:32:54]: atmosphereTemperatureSunMultCurve = FloatCurve
+[LOG 16:32:54]: eccentricityTemperatureSunMultCurve = FloatCurve
+[LOG 16:32:54]: albedo = 0.35
+[LOG 16:32:54]: emissivity = 0.65
+[LOG 16:32:54]: coreTemperatureOffset = 0
+[LOG 16:32:54]: convectionMultiplier = 1
+[LOG 16:32:54]: shockTemperatureMultiplier = 1
+[LOG 16:32:54]: atmosphereUsePressureCurve = True
+[LOG 16:32:54]: atmospherePressureCurveIsNormalized = False
+[LOG 16:32:54]: atmospherePressureCurve = FloatCurve
+[LOG 16:32:54]: radiusAtmoFactor = 1
+[LOG 16:32:54]: rotation = (0.0, 0.0, 0.0, 0.0)
+[LOG 16:32:54]: orbitDriver = Reach (OrbitDriver)
+[LOG 16:32:54]: pqsController = 
+[LOG 16:32:54]: scaledBody = 
+[LOG 16:32:54]: afg = 
+[LOG 16:32:54]: rotates = True
+[LOG 16:32:54]: rotationPeriod = 42120
+[LOG 16:32:54]: solarDayLength = 0
+[LOG 16:32:54]: solarRotationPeriod = True
+[LOG 16:32:54]: initialRotation = 0
+[LOG 16:32:54]: rotationAngle = 0
+[LOG 16:32:54]: directRotAngle = 0
+[LOG 16:32:54]: angularVelocity = [0, 0, 0]
+[LOG 16:32:54]: zUpAngularVelocity = [0, 0, 0]
+[LOG 16:32:54]: tidallyLocked = False
+[LOG 16:32:54]: inverseRotation = False
+[LOG 16:32:54]: inverseRotThresholdAltitude = 100000
+[LOG 16:32:54]: angularV = 0
+[LOG 16:32:54]: timeWarpAltitudeLimits = System.Single[]
+[LOG 16:32:54]: atmosphericAmbientColor = RGBA(0.000, 0.000, 1.000, 0.500)
+[LOG 16:32:54]: orbitingBodies = System.Collections.Generic.List`1[CelestialBody]
+[LOG 16:32:54]: progressTree = KSPAchievements.CelestialBodySubtree
+[LOG 16:32:54]: bodyType = Generic
+[LOG 16:32:54]: scienceValues = CelestialBodyScienceParams
+[LOG 16:32:54]: BiomeMap = kerbin_biome (CBAttributeMapSO)
+[LOG 16:32:54]: bodyTransform = Reach (UnityEngine.Transform)
+[LOG 16:32:54]: --------------------------------------
